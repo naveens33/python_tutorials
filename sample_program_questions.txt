@@ -1,0 +1,7 @@
+Exchange the Values of Two Numbers Without Using a Temporary Variable
+Read a number n and Compute n+nn+nnn
+Reverse a Given Number
+Check Whether a Number is Positive or Negative
+Print all Numbers in a Range Divisible by a Given Number
+Count the Number of Digits in a Number
+Inverted Star Pattern
