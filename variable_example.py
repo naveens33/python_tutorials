@@ -3,7 +3,8 @@ print("Redeclare a Variables ")
 a = 0
 print (a)
 # re-declaring the variable works
-print (a)
+a="hello"
+print(a)
 
 print("Concatenate Variables-  TypeError: can only concatenate str (not 'int') to str")
 
