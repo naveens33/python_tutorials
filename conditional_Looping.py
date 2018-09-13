@@ -40,6 +40,29 @@ if __name__=='__main__':
     else:
         print("{0} is not a leap year".format(year))
 
+    # while loop
+    count = 0
+    while (count < 3):
+        count = count + 1
+        print("Hello Hi")
+
+    # combining else with while
+    count = 0
+    while (count < 3):
+        count = count + 1
+        print("Hello Hi")
+    else:
+        print("In Else Block")
+
+    # Single statement while block
+    #count = 0
+    #while (count == 0): print("Hello Hi")
+
+    # Iterating over a String
+    s = "Hello World"
+    for i in s:
+        print(i)
+
     # Program to check Armstrong numbers in certain interval
 
     lower = 100

@@ -35,4 +35,9 @@ oldstring = 'Python Tutorial Class'
 newstring = oldstring.replace('Class', 'Teach')
 print(newstring)
 
+sentence = 'Python programming is fun.'
+
+# Substring is searched in 'gramming is fun.'
+print(sentence.index('Py', 0))
+
 

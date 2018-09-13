@@ -2,3 +2,5 @@ Installation:
 
 Python- https://www.python.org/downloads/
 PyCharm- https://www.jetbrains.com/pycharm/download/#section=windows
+
+lambda, map and filter in Python
