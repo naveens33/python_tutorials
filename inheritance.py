@@ -49,17 +49,27 @@ class Student:
         self.lastname=lname
 
 class Address():
-    _address=""
+    __address=""
     def setaddress(self,address):
-        self._address=address
+        self.__address=address
 
 class CompleteDetails(Student,Address):
     def details(self):
-        return self.schoolname+"- "+self.firstname+", "+self.lastname+" Address: "+self._address
+        return self.schoolname+"- "+self.firstname+", "+self.lastname+" Address: "+self.__address
 if __name__=='__main__':
     s1=CompleteDetails()
     s1.name('Roman','Reigns')
     s1.setaddress("Bangalore")
-    print(s1.details())
-    s1._address="hello"
-    print(s1._address)
+    #print(s1.details())
+
+#Super keyword
+class parent:
+    def __init__(self):
+        print('parent constructor')
+
+class child(parent):
+    def __init__(self):
+        print('child constructor')
+        super().__init__()
+
+obj=child()
