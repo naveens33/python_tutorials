@@ -11,7 +11,7 @@ p1 = School("Prem", "kumar")
 print(p1.name)
 print(p1.fname)
 
-#Deleting Objects
+#Deleting Objects/Destructor
 class ComplexNumber:
     def __init__(self,r = 0,i = 0):
         self.real = r
