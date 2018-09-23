@@ -20,6 +20,8 @@ class ComplexNumber:
     def getData(self):
         print("{0}+{1}j".format(self.real,self.imag))
 
+    def __del__(self):
+       print("this is destructor")
 
 c1 = ComplexNumber(2,3)
 c1.getData()
