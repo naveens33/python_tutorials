@@ -27,4 +27,4 @@ try:
 except:
   print("Variable fname is not defined/declared")
 finally:
-  print("The 'try except' is finished")
+  print("The 'try except' is finished") 
