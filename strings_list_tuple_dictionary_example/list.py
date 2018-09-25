@@ -115,3 +115,9 @@ rpc_list.clear()
 
 # Output: []
 print(rpc_list)
+
+#randomize the items of a list
+from random import shuffle
+x = [99,55,78,63,45,1,12,15]
+shuffle(x)
+print(x)
