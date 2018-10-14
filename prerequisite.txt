@@ -1,0 +1,11 @@
+1. Download and Install python 3.7
+https://www.python.org/ftp/python/3.7.0/
+
+2. Check python installed and set environmental variable
+
+2. Download and Install Pycharm Community version
+https://www.jetbrains.com/pycharm/download/#section=windows
+
+3. Create Python Project
+
+4. Create python file, right click the project -> New -> Python File

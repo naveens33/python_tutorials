@@ -30,7 +30,7 @@ var9="Python"
 var10=10
 print (var9 * var10)
 
-print("Python String replace()")
+#print("Python String replace()")
 oldstring = 'Python Tutorial Class'
 newstring = oldstring.replace('Class', 'Teach')
 print(newstring)
@@ -38,6 +38,6 @@ print(newstring)
 sentence = 'Python programming is fun.'
 
 # Substring is searched in 'gramming is fun.'
-print(sentence.index('Py', 0))
+print(sentence.index('pr', 0))
 
 
