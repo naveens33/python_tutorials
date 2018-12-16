@@ -25,6 +25,7 @@ fi=open("inputfile.txt","r")
 #print(fi.read(5))
 print(fi.readline())
 
+
 #delete file
 #import os
 #os.remove("outputfile.txt")

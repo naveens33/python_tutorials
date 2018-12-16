@@ -27,4 +27,9 @@ try:
 except:
   print("Variable fname is not defined/declared")
 finally:
-  print("The 'try except' is finished") 
+  print("The 'try except' is finished")
+
+try:
+  fi=open("sdf.txt","r")
+except:
+  print("File not found")

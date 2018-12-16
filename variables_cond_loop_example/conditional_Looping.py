@@ -6,11 +6,12 @@ if __name__=='__main__':
     else:
         print("secondnumber is lesser than firstnumber")
 
+    print(False & True)
     # Else If example
     a,b,c=6,7,1
-    if(a<b & a<c):
+    if(a<b and a<c):
         print("a is smaller")
-    elif(b<a & b<c):
+    elif(b<a and b<c):
         print("b is smaller")
     else:
         print("c is smaller")

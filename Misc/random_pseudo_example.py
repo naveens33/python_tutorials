@@ -18,3 +18,7 @@ print(x)
 
 #Generate a randomly selected element from range(start, stop, step)
 print (random.randrange(0, 100, 4))
+
+
+import random
+print (random.randint(0, 5))

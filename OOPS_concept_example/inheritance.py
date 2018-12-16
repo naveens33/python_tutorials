@@ -9,12 +9,13 @@ class Student:
 
 class CompleteDetails(Student):
     def details(self):
-        return self.schoolname+"- "\
-               +self.firstname+", "+self.lastname
+        return self.schoolname+"- "+self.firstname+", "+self.lastname
 
 s1=CompleteDetails()
 s1.name('Roman','Reigns')
-print(s1.details())
+ans=s1.details()
+print(ans)
+
 
 #Multiple Inheritance
 class Student:
