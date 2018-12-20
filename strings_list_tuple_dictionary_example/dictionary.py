@@ -1,7 +1,8 @@
 #dictionary
-dict1 = {'Name': 'Naveen', 'Class': "Tenth", 'Section': 'A'}
-print ("dict1['Name']: "+ dict1['Name'])
-print ("dict1['Class']: "+ dict1['Class'])
+dict1 = {"Name": 'Naveen', 'Class': "Tenth", 'Section': 'A'}
+print(dict1['Name'])
+dict1['Name']="prem"
+print(dict1)
 
 #Updating Dictionary
 dict2 = {'Name': 'Naveen', 'Class': "Tenth", 'Section': 'A'}
@@ -9,11 +10,14 @@ dict2['Class'] = "Eigth";
 dict2['Rank'] = 2;
 print ("dict['Class']: ", dict2['Class'])
 print ("dict['Rank']: ", dict2['Rank'])
+print(dict2)
 
 #Delete Dictionary/Elements
 dict3 = {'Name': 'Naveen', 'Class': "Tenth", 'Section': 'A'}
 del dict3['Name'];
+print(dict3)
 dict3.clear();
+
 #del dict3 ;
 
 #print ("dict3['Name']: ", dict3['Name'])

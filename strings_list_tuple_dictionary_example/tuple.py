@@ -29,6 +29,6 @@ print(len(tupl6))
 
 #max() , min()
 tupl7=(97,94,96,99)
-tupl8=(91,94,96,95)
+tupl8=(91,94,96,9)
 print(min(tupl7))
 print(max(tupl8))

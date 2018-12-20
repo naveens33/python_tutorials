@@ -108,7 +108,7 @@ if __name__=='__main__':
     a=4
     b=2
     c=3
-    #if((a<b) & (a<c)): TRUE & TRUE = TRUE, TRUE & FALSE = FALSE 
+    #if((a<b) & (a<c)): TRUE & TRUE = TRUE, TRUE & FALSE = FALSE-- we can use either & or and to compare boolean values
     if((a<b) and (a<c)):
         print(str(a)+" is smaller")
     elif((b<a) and (b<c)):

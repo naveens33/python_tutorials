@@ -39,3 +39,13 @@ def default_para(Name = "Dhoni"):
 default_para("Sachin")
 default_para()
 
+def findevennumbers(start,end):
+    li=[]
+    for i in range(start,end):
+        if(i%2==0):
+            li.append(i)
+    return li
+
+if __name__=='__main__':
+    c=findevennumbers(80,98)
+    print(c)
