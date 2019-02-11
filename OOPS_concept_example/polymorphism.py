@@ -1,3 +1,22 @@
+#Overloading
+class calculate_area:
+
+    def area(self,x=None,y=None):
+        if y==None:
+            a=x*x
+            print("Area of circle is: "+str(a))
+        else:
+            a=x*y
+            print("Area of Rectangle: "+str(a))
+
+
+if __name__=="__main__":
+    obj=calculate_area()
+    obj.area(1)
+    obj.area(1,4)
+
+
+
 #Overriding
 class parent:
     def display(self):

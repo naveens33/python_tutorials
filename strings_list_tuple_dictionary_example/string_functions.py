@@ -1,5 +1,10 @@
 if __name__=="__main__":
     pass
+#endswith
+    name="Mr. Karthick BA. BL."
+    if(name.endswith("BA. BL.")):
+        print("Qualification Added")
+
 '''
     #split
     names="adarsh,suresh,ramesh,kamal"
@@ -20,12 +25,7 @@ if __name__=="__main__":
     print(note.find("the"))
     print(note.index("the"))    
 '''
-'''
-    #endswith
-    name="Mr. Karthick BA. BL."
-    if(name.endswith("BA. BL.")):
-        print("Qualification Added")
-'''
+
 '''
     #startswith
     name="Mr. Karthick"

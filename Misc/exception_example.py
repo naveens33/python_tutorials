@@ -1,14 +1,15 @@
 #This statement will raise an error, because fname is not defined:
 try:
   print(fname)
-except:
-  print("An exception occurred")
+except Exception:
+  print("Important: " + str(Exception.with_traceback()))
 
+'''
 #Many Exceptions
 try:
   print(fname)
-except NameError:
-  print("Variable fname is not defined/declared")
+except Exception:
+  print("Important: "+str(Exception.with_traceback()))
 except:
   print("Different error")
 
@@ -33,3 +34,5 @@ try:
   fi=open("sdf.txt","r")
 except:
   print("File not found")
+
+'''

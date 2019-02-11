@@ -26,5 +26,4 @@ class ComplexNumber:
 c1 = ComplexNumber(2,3)
 c1.getData()
 del(c1)
-#c1.getData()
-
+#c1.getData()j

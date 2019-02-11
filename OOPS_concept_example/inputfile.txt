@@ -1,0 +1,4 @@
+Opens a file for both appending and reading.
+The file pointer is at the end of the file if the file exists.
+The file opens in the append mode.
+If the file does not exist, it creates a new file for reading and writing.

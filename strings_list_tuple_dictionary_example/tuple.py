@@ -16,7 +16,7 @@ print(tupl4)
 #Slicing
 tupl5 = (91,94,96,99)
 print(tupl5[1:])
-print(tupl5[::-1])
+print(tupl5[:-1])
 print(tupl5[2:4])
 
 #Deleting

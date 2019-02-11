@@ -61,7 +61,7 @@ if __name__=='__main__':
     s1=CompleteDetails()
     s1.name('Roman','Reigns')
     s1.setaddress("Bangalore")
-    #print(s1.details())
+    print(s1.details())
 
 #Super keyword
 class parent:

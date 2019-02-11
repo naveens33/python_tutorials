@@ -121,3 +121,22 @@ from random import shuffle
 x = [99,55,78,63,45,1,12,15]
 shuffle(x)
 print(x)
+
+a = []
+print("Enter the marks: ")
+for i in range(0, 5):
+    a.append(input())
+
+print(a)
+
+names = []
+print("Info: if done please enter Quit")
+print("Enter the presence: ")
+
+while (True):
+    a = input()
+    if a.lower() == 'quit':
+        break
+    names.append(a)
+
+print(names)

@@ -14,11 +14,11 @@ print(dict2)
 
 #Delete Dictionary/Elements
 dict3 = {'Name': 'Naveen', 'Class': "Tenth", 'Section': 'A'}
-del dict3['Name'];
+del dict3['Name']
 print(dict3)
-dict3.clear();
+dict3.clear()
 
-#del dict3 ;
+#del dict3
 
 #print ("dict3['Name']: ", dict3['Name'])
 #print ("dict3['Section']: ", dict3['Section'])

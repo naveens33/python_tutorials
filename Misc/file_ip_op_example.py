@@ -21,9 +21,9 @@ fo.close()
 
 # Open file and read file
 fi=open("inputfile.txt","r")
-#print(fi.read())
+print(fi.read())
 #print(fi.read(5))
-print(fi.readline())
+#print(fi.readline())
 
 
 #delete file

@@ -101,7 +101,6 @@ if __name__=='__main__':
             print("Invalid value")
     else:
         print("Not Eligible")
-
 '''
 
 '''
@@ -124,4 +123,19 @@ if __name__=='__main__':
         print(str(a)+" is divided by 3")
     else:
         print(str(a)+" is not divided by 3")
+'''
+
+'''
+#Break example
+    names = []
+    print("Info: if done please enter Quit")
+    print("Enter the presence: ")
+
+    while(True):
+        a=input()
+        if a.lower() == 'quit':
+            break
+        names.append(a)
+
+    print(names)
 '''
