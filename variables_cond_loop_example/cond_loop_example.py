@@ -1,4 +1,17 @@
 if __name__=='__main__':
+    num=5006
+    rev=0
+    copy=num
+    while(num!=0):
+        temp=num%10
+        rev=(rev*10)+temp
+        num=num//10
+    print(rev)
+    if(rev==copy):
+        print("Pal")
+    else:
+        print("not pal")
+
     pass
 '''
     for i in range(10,0,-1):

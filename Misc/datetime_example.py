@@ -7,3 +7,4 @@ print("Date: "+str(obj.strftime("%d")))
 print("Day: "+str(obj.strftime("%A")))
 print("Month: "+str(obj.strftime("%B")))
 
+

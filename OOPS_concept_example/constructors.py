@@ -27,3 +27,18 @@ c1 = ComplexNumber(2,3)
 c1.getData()
 del(c1)
 #c1.getData()j
+
+class student:
+    rollno=0
+    name=""
+    def __init__(self,x,y):
+        self.rollno=x
+        self.name=y
+
+    def print(self):
+        print(self.rollno)
+        print(self.name)
+
+if __name__=="__main__":
+    s1=student(45,"somesh")
+    s1.print()
