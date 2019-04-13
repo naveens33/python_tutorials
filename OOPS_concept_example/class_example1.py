@@ -14,4 +14,3 @@ if __name__=='__main__':
     s2.rollno=2
     s2.name="Anto"
     s1.displayDetails()
-    s2.displayDetails()
