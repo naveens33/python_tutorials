@@ -47,7 +47,15 @@ if __name__=='__main__':
         if (count==1):
             print(a)
 '''
-
+'''
+    num=16
+    for i in range(2,(num//2)+1):
+        if num%i==0:
+            print("Its not prime number")
+            break;
+    else:
+        print("Its a prime number")
+'''
 '''
     a=16
     count=0

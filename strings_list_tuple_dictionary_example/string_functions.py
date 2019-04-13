@@ -38,8 +38,7 @@ if __name__=="__main__":
 '''
     #count
     note = "Proof Of funds needs to be shown for the family and the friends"
-    #count=note.count("the")
-    count=note.count("the",0,40)
+h
     print(count)
 '''
 '''

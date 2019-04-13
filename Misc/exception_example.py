@@ -1,9 +1,31 @@
-#This statement will raise an error, because fname is not defined:
+try:
+    raise IndentationError("This error")
+    fo = open("P:\outputfile.txt", "w")
+    raise ArithmeticError("something")
+except ArithmeticError as err:
+    print(err)
+except FileNotFoundError as err:
+    print(err)
+except Exception as err:
+    print(err)
+finally:
+    print("this is finally")
+
+'''if __name__=='__main__':
+    try:
+        #fo = open("P:\outputfile.txt", "w")
+        raise ArithmeticError("something")
+    except Exception as err:
+        print(err)
+    finally:
+        print("this is finally")
+'''
+'''#This statement will raise an error, because fname is not defined:
 try:
   print(fname)
 except Exception:
   print("Important: " + str(Exception.with_traceback()))
-
+'''
 '''
 #Many Exceptions
 try:
@@ -36,3 +58,4 @@ except:
   print("File not found")
 
 '''
+
