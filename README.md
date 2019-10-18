@@ -5,4 +5,4 @@
 
 ## Contents
 
-1. [Introduction to Python] (introduction.md)
+1. [Introduction to Python](introduction.md)
