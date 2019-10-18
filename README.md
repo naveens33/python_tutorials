@@ -1,4 +1,3 @@
-# What is programming?
+**This repository has all the basic concept of python with sample code**
 
-**Feel free to [skip this part](#how-to-read-this-tutorial) if you
-already know everything it's talking about.**
+###I learn, celebrate and teach everyone how to build platforms that will inspire others. -Me
