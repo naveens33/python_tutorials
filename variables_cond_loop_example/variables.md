@@ -21,5 +21,5 @@ a=5
 
 b=6
 
-![variables](images/variable.gif)
+![variables](../images/variable.gif)
 
