@@ -6,3 +6,4 @@
 ## Contents
 
 1. [Introduction to Python](introduction.md)
+1. [Variables, Reserved Words and Operators](variables_reservedwords_operators.md)

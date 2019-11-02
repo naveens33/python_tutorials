@@ -29,14 +29,19 @@ b=6
 _underscore
 
 underscore_
+
 2. The remainder of your variable name may consist of letters, numbers and underscores.
+
 mark1
+
 half_score
+
 3. Names are case sensitive. 
+
 case_sensitive, CASE_SENSITIVE, and Case_Sensitive are each a different variable.
 
 # Reserved Words 
-|Reserved ||||
+|Reserved Words||||
 |-----|-----|----|----|
 |False | def |if|raise|
 |None|del|import|return|
@@ -84,8 +89,3 @@ case_sensitive, CASE_SENSITIVE, and Case_Sensitive are each a different variable
 |%=	|Modulus AND: Takes modulus using left and right operands and assign result to left operand	|a%=b   a=a%b|
 |//=	|Divide(floor) AND: Divide left operand with right operand and then assign the value(floor) to left operand	|a//=b       a=a//b|
 |**=	|Exponent AND: Calculate exponent(raise power) value using operands and assign value to left operand	|a**=b     a=a**b|
-|&=	|Performs Bitwise AND on operands and assign value to left operand	|a&=b     a=a&b|
-||=	|Performs Bitwise OR on operands and assign value to left operand	|a|=b         a=a|b
-|^=	|Performs Bitwise xOR on operands and assign value to left operand	|a^=b       a=a^b
-|>>=	|Performs Bitwise right shift on operands and assign value to left operand	|a>>=b     a=a>>b|
-|<<=	|Performs Bitwise left shift on operands and assign value to left operand	|a <<= b                    a= a << b|
