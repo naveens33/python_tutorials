@@ -6,4 +6,4 @@
 ## Contents
 
 1. [Introduction to Python](introduction.md)
-1. [Variables, Reserved Words and Operators](../variables_cond_loop_example/variables_reservedwords_operators.md)
+1. [Variables, Reserved Words and Operators](./variables_cond_loop_example/variables_reservedwords_operators.md)
