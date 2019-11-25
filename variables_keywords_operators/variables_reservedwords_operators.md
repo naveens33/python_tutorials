@@ -1,4 +1,4 @@
-# Variable 
+# Variables 
 
 A variable is something which can change. A variable is a way of referring to a memory location used by a computer program. 
 In many programming languages a variable is a symbolic name for this physical location. This memory location contains values, like numbers, text or more complicated types. 
@@ -85,7 +85,3 @@ case_sensitive, CASE_SENSITIVE, and Case_Sensitive are each a different variable
 |//=	|Divide(floor) AND: Divide left operand with right operand and then assign the value(floor) to left operand	|a//=b       a=a//b|
 |**=	|Exponent AND: Calculate exponent(raise power) value using operands and assign value to left operand	|a**=b     a=a**b|
 |&=	|Performs Bitwise AND on operands and assign value to left operand	|a&=b     a=a&b|
-||=	|Performs Bitwise OR on operands and assign value to left operand	|a|=b         a=a|b
-|^=	|Performs Bitwise xOR on operands and assign value to left operand	|a^=b       a=a^b
-|>>=	|Performs Bitwise right shift on operands and assign value to left operand	|a>>=b     a=a>>b|
-|<<=	|Performs Bitwise left shift on operands and assign value to left operand	|a <<= b                    a= a << b|
