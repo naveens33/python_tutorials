@@ -50,5 +50,8 @@
     |a=a+1|a starts referring a new object whose value is 5|a continues to point to the same memory, with value equal to5|
     |a=5, b=6| Both a and b will refer to same object|a and b are two variables pointing to different memory location|
     
+8. What is pass?
+    * The pass statement is a null operation. Nothing happens when it executes
+    * This statement used if the program requires no action but requires it syntactically
     
     
