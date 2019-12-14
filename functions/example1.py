@@ -1,3 +1,4 @@
+#sum the digit of the number till the no. of digit becomes 1
 def getlength(num):
     len=0
     while(num!=0):

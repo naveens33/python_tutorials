@@ -54,4 +54,21 @@
     * The pass statement is a null operation. Nothing happens when it executes
     * This statement used if the program requires no action but requires it syntactically
     
+9. Type conversion in Python
+    * int() – converts any data type into integer type
+    * float() – converts any data type into float type
+    * ord() – converts characters into integer
+    * hex() – converts integers to hexadecimal
+    * oct() – converts integer to octal
+    * tuple() – This function is used to convert to a tuple.
+    * set() – This function returns the type after converting to set.
+    * list() – This function is used to convert any data type to a list type.
+    * dict() – This function is used to convert a tuple of order (key,value) into a dictionary.
+    * str() – Used to convert integer into a string.
+    * complex(real,imag) – This functionconverts real numbers to complex(real,imag) number.
+    
+10. Difference between Arrays and lists
+    * Python does not have built-in support for Arrays, but you can be created by importing array module.
+    
+    Arrays and lists have the same way of storing data. But, arrays can hold only a single data type elements whereas lists can hold any data type elements.
     

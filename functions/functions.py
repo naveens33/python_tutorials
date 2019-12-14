@@ -24,7 +24,7 @@ def return_example(para1):
 
 print(return_example("hi hello"))
 
-#square
+#example- square
 def square(para1):
     ans=para1*para1
     return(ans)
@@ -49,3 +49,36 @@ def findevennumbers(start,end):
 if __name__=='__main__':
     c=findevennumbers(80,98)
     print(c)
+
+
+def total(m1,m2,m3,m4,m5):
+    print("m1",m1)
+    print("m2",m2)
+    print("m3",m3)
+    print("m4",m4)
+    print("m5",m5)
+
+
+mark=[12,34,54,65,54]
+total(*mark)
+
+def total(*mark):
+    print(mark)
+    print(sum(mark))
+
+total(12,34,54,65,54)
+
+def total(*mark,x):
+    print(mark)
+    print("x: ",x)
+    print(sum(mark))
+
+total(12,34,54,65,54,x=67)
+
+def total(m1,m2,m3):
+    print("m1",m1)
+    print("m2",m2)
+    print("m3",m3)
+
+mark={"m1":32,"m2":43,"m3":100}
+total(**mark)
