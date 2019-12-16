@@ -1,0 +1,4 @@
+# Interview Questions
+1. What is a function
+    
+    A function is a block of code which is executed only when it is called. To define a Python function, the def keyword is used.
