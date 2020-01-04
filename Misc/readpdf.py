@@ -1,4 +1,5 @@
 import PyPDF2
+
 pdf_file = open('C:\\Users\\naveen.s\\Downloads\\8534567-01-10-12.pdf', 'rb')
 read_pdf = PyPDF2.PdfFileReader(pdf_file)
 number_of_pages = read_pdf.getNumPages()

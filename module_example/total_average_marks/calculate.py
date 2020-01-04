@@ -1,5 +1,5 @@
 #calculate.py
-import total,average
+from module_example.total_average_marks import total,average
 m1=150
 m2=156
 m3=176

@@ -5,7 +5,7 @@ from random import shuffle
 print (random.randint(0, 5))
 
 #a random number between 0 and 100
-print(int(random.random() * 100))
+print(type(random.random() * 100))
 
 #a random element from a list
 myList = [True, 56, "Book", "R", 56.89, False, 0.56]

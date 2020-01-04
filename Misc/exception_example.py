@@ -1,3 +1,19 @@
+def sample(index):
+    li = [32, 43, 65]
+    try:
+        return li[index]
+    except IndexError as err:
+        print("Sorry you have entered a wrong index.", err)
+    except Exception as err:
+        print("Something went wrong")
+    finally:
+        print("Thanks for using our code!!!!")
+
+if __name__=='__main__':
+    index = int(input("Enter valid index under 2: "))
+    c=sample(index)
+    print(c)
+'''
 try:
     raise IndentationError("This error")
     fo = open("P:\outputfile.txt", "w")
@@ -10,6 +26,7 @@ except Exception as err:
     print(err)
 finally:
     print("this is finally")
+'''
 
 '''if __name__=='__main__':
     try:

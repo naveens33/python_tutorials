@@ -4,4 +4,4 @@
    * Self is an instance or an object of a class. In Python, this is explicitly included as the first parameter. However, this is not the case in Java where it’s optional.
    * The self variable in the init method refers to the newly created object while in other methods, it refers to the object whose method was called.
    
-   
+2. Differece between classmethod and staticmethod

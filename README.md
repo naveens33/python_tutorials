@@ -8,3 +8,5 @@
 1. [Introduction to Python](introduction.md)
 2. [Variables, Reserved Words and Operators](variables_keywords_operators_datatypes/variables_reservedwords_operators.md)
     * [Questions and Answers](variables_keywords_operators_datatypes/QA.md)
+3. [Strings](strings/QA.md)
+    * [Questions and Answers](strings/QA.md)

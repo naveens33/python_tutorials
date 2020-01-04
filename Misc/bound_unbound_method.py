@@ -19,6 +19,7 @@ if __name__=='__main__':
 #interacts with classes only and not instances
 #This can cause a future code maintenance problem
 class Message():
+    @staticmethod
     def display():
         print("This is bound method")
 

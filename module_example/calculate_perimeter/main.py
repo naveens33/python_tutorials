@@ -1,6 +1,18 @@
-from cal_perimeter import squ_perimeter,tri_perimeter
-#import cal_perimeter
-if __name__ =='__main__':
+'''
+#from module_example.calculate_perimeter.cal_perimeter import squ_perimeter, rec_perimeter
+#from module_example.calculate_perimeter import cal_perimeter
+from module_example.calculate_perimeter.cal_perimeter import *
+if __name__=='__main__':
     print(squ_perimeter(4))
-    print(tri_perimeter(3,4,8))
-#print(cal_perimeter.rec_perimeter(4,6))
+    print(rec_perimeter(3,5))
+    #print(cal_perimeter.squ_perimeter(4))
+    #print(cal_perimeter.rec_perimeter(3,5))
+'''
+
+#from module_example.calculate_area.cal_area import CalArea
+from module_example.calculate_area.cal_area import *
+
+if __name__=='__main__':
+    obj=CalArea()
+    print(obj.sqa_area(5))
+    

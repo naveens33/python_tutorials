@@ -21,8 +21,6 @@ print(sheet.ncols)
 for i in range(sheet.ncols):
     print(sheet.cell_value(0, i))
 
-
-
 # Extract first column
 for i in range(sheet.nrows):
     print(sheet.cell_value(i, 0))
