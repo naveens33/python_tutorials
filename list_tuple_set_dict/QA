@@ -39,7 +39,7 @@
     shuffle(x)
     print(x)
     ```
-7. [::-1] does?
+7. [::-1} does?
 
     It will reverse the order of the any iterable object
 8. Can a object holds another object in python
