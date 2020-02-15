@@ -31,3 +31,9 @@ The special syntax *args in function definitions in python is used to pass a var
 **kwargs
 
 The special syntax **kwargs in function definitions in python is used to pass a keyworded, variable-length argument list. We use the name kwargs with the double star. The reason is because the double star allows us to pass through keyword arguments (and any number of them).
+
+### Additional properties of the function
+
+* Function can be assigned to a variable i.e they can be referenced.
+* Function can be passed as an argument to another function.
+* Function can be returned from a function.

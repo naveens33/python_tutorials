@@ -39,3 +39,10 @@
     shuffle(x)
     print(x)
     ```
+7. [::-1] does?
+
+    It will reverse the order of the any iterable object
+8. Can a object holds another object in python
+
+    Yes, Everything in Python is an object and some objects can hold other objects, such as lists, tuples, dicts, classes, etc.
+ 

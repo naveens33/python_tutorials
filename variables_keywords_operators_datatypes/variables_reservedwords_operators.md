@@ -9,7 +9,7 @@ While you see in other languages like C, C++ and Java. Variable names have to be
 int a;
 
 a=5;
-
+    
 int b;
 
 b=7;
@@ -85,3 +85,25 @@ case_sensitive, CASE_SENSITIVE, and Case_Sensitive are each a different variable
 |//=	|Divide(floor) AND: Divide left operand with right operand and then assign the value(floor) to left operand	|a//=b       a=a//b|
 |**=	|Exponent AND: Calculate exponent(raise power) value using operands and assign value to left operand	|a**=b     a=a**b|
 |&=	|Performs Bitwise AND on operands and assign value to left operand	|a&=b     a=a&b|
+### type conversion in Python
+int() – converts any data type into integer type
+
+float() – converts any data type into float type
+
+ord() – converts characters into integer
+
+hex() – converts integers to hexadecimal
+
+oct() – converts integer to octal
+
+tuple() – This function is used to convert to a tuple.
+
+set() – This function returns the type after converting to set.
+
+list() – This function is used to convert any data type to a list type.
+
+dict() – This function is used to convert a tuple of order (key,value) into a dictionary.
+
+str() – Used to convert integer into a string.
+
+complex(real,imag) – This functionconverts real numbers to complex(real,imag) number.

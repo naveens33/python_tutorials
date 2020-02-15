@@ -2,3 +2,7 @@
 1. What is a function
     
     A function is a block of code which is executed only when it is called. To define a Python function, the def keyword is used.
+2. What is callable
+
+   * Functions and methods are called callable
+   * In fact, any object which implements the special method __call__() is termed callable.

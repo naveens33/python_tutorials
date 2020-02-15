@@ -43,3 +43,31 @@
     * dict() – This function is used to convert a tuple of order (key,value) into a dictionary.
     * str() – Used to convert integer into a string.
     * complex(real,imag) – This functionconverts real numbers to complex(real,imag) number.
+
+6. What is PyMalloc?
+
+    To speed-up memory operations and reduce fragmentation Python uses a special manager on top of the general-purpose allocator, called PyMalloc.
+
+7. is not in operator
+
+    is: returns true when 2 operands are true  (Example: “a” is ‘a’)
+
+    not: returns the inverse of the boolean value
+
+    in: checks if some element is present in some sequence
+
+8. Types - Mutable and Immutable
+
+   |Class|Description|Immutable(Cannot be changed)|
+   |-----|-----------|---------|
+   |bool|Boolean Value|yes|
+   |int|Integer|yes|
+   |float|Float|yes|
+   |list|mutable sequence of objects|no|
+   |tuple|immutable sequence of objects|yes|
+   |str|string|yes|
+   |set|unordered set of distinct object|no|
+   |frozenset|immutable from of set class|yes|
+   |dict|dictionary|no|
+
+   https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747
