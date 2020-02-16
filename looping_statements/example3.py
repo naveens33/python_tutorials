@@ -1,14 +1,14 @@
-#Palindrom or not 1331
+# Palindrom or not 1331
 
-if __name__=='__main__':
-    num=int(input("Enter the number: "))
-    copy=num
-    rev=0
-    while(num!=0):
-        temp=num%10
-        rev=(rev*10)+temp
-        num=num//10
-    if rev==copy:
+if __name__ == '__main__':
+    num = int(input("Enter the number: "))
+    copy = num
+    rev = 0
+    while (num != 0):
+        temp = num % 10
+        rev = (rev * 10) + temp
+        num = num // 10
+    if rev == copy:
         print("Its is a palindrome")
     else:
         print("Not palindrome")

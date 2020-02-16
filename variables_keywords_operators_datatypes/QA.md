@@ -24,8 +24,8 @@
     |Data type declaration|No need. Dynamically typed|Mandatory. Static type|
     |What is 5?|An object created on heap memory|A primitive data store in 4 bytes or 2 bytes
     |What does a contains?|Reference to Object 5|Memory location where 5 is store|
-    |a=a+1|a starts referring a new object whose value is 5|a continues to point to the same memory, with value equal to5|
-    |a=5, b=6| Both a and b will refer to same object|a and b are two variables pointing to different memory location|
+    |a=a+1|a starts referring a new object whose value is 6|a continues to point to the same memory, with value equal to 6|
+    |a=6, b=6| Both a and b will refer to same object|a and b are two variables pointing to different memory location|
     
 4. What is pass?
     * The pass statement is a null operation. Nothing happens when it executes
