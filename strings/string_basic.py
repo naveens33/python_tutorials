@@ -1,3 +1,10 @@
+# Indexing
+# Slicing -> Substring
+# Reversing
+# Contains
+# Concatenating
+# Repeat
+#working with loops
 '''
     Indexing and Slicing
 '''
@@ -15,6 +22,11 @@ print ("var2[1:5]:",var2[1:5])
 #-ve slicing
 print ("var2[1:5]:",var2[-2:-5])
 
+#Reverse a complete string
+print("Reverse a complete string",var2[::-1])
+
+#Reverse a substring
+print("Reverse a substring", var2[5:2:-1])
 '''
     Operators with string
 '''
@@ -28,3 +40,14 @@ print("u" not in var1)
 #Arithmetic operator +(concadinate) and *(repeat)
 print(var1+var2)
 print(var1 * 10)
+
+#working with loop
+#By Indexing
+name="Don Bosco"
+for i in range(0,len(name)):
+    print(name[i])
+
+#By Iterable
+name="Don Bosco"
+for c in name:
+    print(c)
