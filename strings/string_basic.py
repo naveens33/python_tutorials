@@ -51,3 +51,4 @@ for i in range(0,len(name)):
 name="Don Bosco"
 for c in name:
     print(c)
+
