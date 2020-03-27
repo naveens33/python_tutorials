@@ -4,7 +4,7 @@
 # Contains
 # Concatenating
 # Repeat
-#working with loops
+# working with loops
 '''
     Indexing and Slicing
 '''

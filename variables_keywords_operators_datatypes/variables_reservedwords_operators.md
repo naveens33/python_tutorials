@@ -1,4 +1,4 @@
-# Variables 
+# Variables
 
 A variable is something which can change. A variable is a way of referring to a memory location used by a computer program. 
 In many programming languages a variable is a symbolic name for this physical location. This memory location contains values, like numbers, text or more complicated types. 
@@ -29,11 +29,15 @@ b=6
 _underscore
 
 underscore_
+
 2. The remainder of your variable name may consist of letters, numbers and underscores.
 mark1
 half_score
-3. Names are case sensitive. 
+
+3. Names are case sensitive.
 case_sensitive, CASE_SENSITIVE, and Case_Sensitive are each a different variable.
+
+4. No special characters are allowed
 
 # Reserved Words 
 |Reserved ||||

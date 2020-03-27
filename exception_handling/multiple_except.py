@@ -1,13 +1,18 @@
-li=[12,34,43]
+li = [12,43,54]
 
-while(True):
-    index=int(input("enter the index: "))
+while True:
     try:
+        index = int(input("Enter the index: "))
+        x=9/0
         print(li[index])
-        c=7/0
     except IndexError as err:
-        print("Hey, provide the valid index")
+        print("Hey provide valid index range")
+    except ValueError as err:
+        print("Hey provide valid index type")
     except Exception as err:
         print(err)
     finally:
         print("Thanks for using my code")
+    stop = input("Do you want to stop(yes/no): ")
+    if stop == 'yes':
+        break

@@ -39,22 +39,31 @@
     shuffle(x)
     print(x)
     ```
-7. [::-1} does?
+7. What is slicing?
+
+    Slicing is a technique that allows us to retrieve only a part of a list, tuple, or string.
+
+8. [::-1} does?
 
     It will reverse the order of the any iterable object
-8. Can a object holds another object in python
+9. Can a object holds another object in python
 
-    Yes, Everything in Python is an object and some objects can hold other objects, such as lists, tuples, dicts, classes, etc.
-9. Difference between iterable and iterator
-    * Iterable is an object, which one can iterate over. It generates an Iterator when passed to iter() method.
-    * Iterator is an object, which is used to iterate over an iterable object using __next__() method. Iterators have __next__() method, which returns the next item of the object
+     Yes, Everything in Python is an object and some objects can hold other objects, such as lists, tuples, dicts, classes, etc.
+10. Difference between iterable and iterator
+     * Iterable is an object, which one can iterate over. It generates an Iterator when passed to iter() method.
+     * Iterator is an object, which is used to iterate over an iterable object using __next__() method. Iterators have __next__() method, which returns the next item of the object
 
-10. What is iter()
+11. What is iter()
      * The iter() is a method that returns an iterator for the given object
      * In case, the given object is not a iterable it will throw TypeError
-11. How to create empty set
+12. How to create empty set
 
     set() function can be used to create sets. Note: to create an empty set you have to use set(), not {};
 
-12. List Sort
-13. Set Pop
+13. List Sort
+14. Set Pop
+15. 
+16. What are negative indices?
+
+    A negative index starts from right to left and starts with -1
+

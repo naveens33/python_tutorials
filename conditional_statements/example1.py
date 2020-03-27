@@ -1,10 +1,12 @@
 if __name__ == '__main__':
-    age = int(input("Enter the age"))
-    if age >= 18:
-        panstatus = input("Do you have pan card(yes/no)")
-        if panstatus == "yes":
-            print("Eligible")
+    y = int(input("Enter the year: "))
+    if y%4==0:
+        if y%100==0:
+            if y%400==0:
+                print("Leap Year")
+            else:
+                print("Not Leap Year")
         else:
-            print("Apply for pan")
+            print("Leap year")
     else:
-        print("Not eligible")
+        print("Not Leap")

@@ -1,4 +1,4 @@
-#Convert uppercase to lowercase and vice versa
+# Swap Case without using method
 text = "Process Finished With Exit Code 0"
 result = ""
 for i in range(len(text)):
@@ -10,3 +10,14 @@ for i in range(len(text)):
         result += text[i]
 
 print(result)
+
+
+name = "Mr. Karthick BA. BL."
+#print(name.swapcase())
+ans = ""
+for c in name:
+    if c.isupper():
+      ans =  ans+c.lower()
+    else:
+        ans = ans+c.upper()
+print(ans)

@@ -6,3 +6,16 @@
 
    * Functions and methods are called callable
    * In fact, any object which implements the special method __call__() is termed callable.
+
+3. How would you define a block in Python
+
+    Python does not support curly braces. This means we must end such statements with colons and then write the code with indent.
+
+    ```
+    def getlength(num):
+    len=0
+    while(num!=0):
+        len+=1
+        num=num//10
+    return len  
+    ```

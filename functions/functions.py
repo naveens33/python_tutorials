@@ -1,4 +1,4 @@
-# function example
+# function example -> without any param also, without any return
 def function1():
     print("Inside func1")
 
@@ -39,7 +39,7 @@ def square(para1):
 
 
 a = 6
-print("Square of {0} = {1} ".format(a, square(a)))
+print("Square of {} = {} ".format(a, square(a)))
 
 
 # default parameter
@@ -49,6 +49,16 @@ def default_para(Name="Dhoni"):
 
 default_para("Sachin")
 default_para()
+
+
+# Rules: non-default parameter cannot follow the default parameter
+
+def total(m1=0, m2=0, m3=0, m4=0, m5=0):
+    print(m1, m2, m3, m4, m5)
+    print(m1 + m2 + m3 + m4 + m5)
+
+
+total(54, m3=76, m4=45, m5=56)
 
 
 def findevennumbers(start, end):
