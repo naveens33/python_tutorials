@@ -1,0 +1,2 @@
+The file opens in the append mode.Opens a file for both appending and reading.Opens a file for both appending and reading.
+asddsOpens a file for both appending and reading.
