@@ -20,7 +20,7 @@ print ("var1[0]:",var1[-3])
 print ("var2[1:5]:",var2[1:5])
 
 #-ve slicing
-print ("var2[1:5]:",var2[-2:-5])
+print ("var2[1:5]:",var2[-5:-2])
 
 #Reverse a complete string
 print("Reverse a complete string",var2[::-1])

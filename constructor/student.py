@@ -1,17 +1,15 @@
-class student:
-    rollno=0
-    feestatus=False
+class Student:
+    name = ''
+    rollno = 0
 
-    def __init__(self,str):
-        print(str)
+    def __init__(self,n,r):
+        self.name = n
+        self.rollno = r
 
-    def display(self):
-        print("World")
+    def display_details(self):
+        print(self.name, self.rollno)
 
-    def __del__(self):
-        print("Destrutor")
-
-if __name__=='__main__':
-    s1=student("hello")
-    del(s1)
-    s2=student("hello2")
+s1 = Student("Prem",33)
+s2 = Student("Somi",56)
+s1.display_details()
+s2.display_details()

@@ -9,6 +9,6 @@ from datetime import datetime
 
 now=datetime.now()
 print(now)
-now=now.strftime("%d%m")
-print(now)
+now=now.strftime("%d")
+print(type(now))
 

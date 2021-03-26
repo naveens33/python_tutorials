@@ -35,7 +35,7 @@ print(li1)
 li1.reverse()
 print(li1)
 
-#Sort
+#Sort -> You cannot sort list which having another nested list
 li1.sort()
 print(li1)
 

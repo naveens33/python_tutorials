@@ -1,7 +1,7 @@
 class CalculateArea:
     def area(self,x,y=None):
         if y ==None:
-            print(x*x)
+            print(3.14*x*x)
         else:
             print(x*y)
 

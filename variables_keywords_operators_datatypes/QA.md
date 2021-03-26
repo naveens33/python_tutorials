@@ -6,6 +6,7 @@
     * Tuples
     * Dictionaries
     * Set
+    * Boolean
 
 2. Key points of Memory Allocation and Management in Python
     * Memory in Python is managed by Python private heap space. All Python objects and data structures are located in a private heap. This private heap is taken care of by Python Interpreter itself, and a programmer doesn’t have access to this private heap.
