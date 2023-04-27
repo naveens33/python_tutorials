@@ -38,6 +38,7 @@ half_score
 case_sensitive, CASE_SENSITIVE, and Case_Sensitive are each a different variable.
 
 4. No special characters are allowed
+5. Keywords cannot be a variables
 
 # Reserved Words 
 |Reserved ||||
