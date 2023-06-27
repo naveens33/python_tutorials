@@ -27,3 +27,5 @@ s2.rollno=56
 s2.display_details()
 s1.display_completedetails()
 s2.display_completedetails()
+name = "3543453"
+print(name.lower())

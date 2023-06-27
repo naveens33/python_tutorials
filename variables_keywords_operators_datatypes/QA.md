@@ -72,3 +72,5 @@
    |dict|dictionary|no|
 
    https://medium.com/@meghamohan/mutable-and-immutable-side-of-python-c2145cf72747
+9. What is Dynamically Types?
+Python is dynamically typed, this means that you don’t need to state the types of variables when you declare them or anything like that. You can do things like x=111 and then x="I'm a string" without error
