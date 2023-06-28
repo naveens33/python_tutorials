@@ -41,6 +41,8 @@ case_sensitive, CASE_SENSITIVE, and Case_Sensitive are each a different variable
 5. Keywords cannot be a variables
 
 # Reserved Words 
+Reserved words in Python, also known as keywords, are the words that have special meanings and predefined functionality in the Python programming language. These words are reserved and cannot be used as variable names, function names, or any other identifiers within your program. Attempting to use a reserved word as an identifier will result in a syntax error. 
+
 |Reserved ||||
 |-----|-----|----|----|
 |False | def |if|raise|
