@@ -165,3 +165,39 @@ The special syntax **kwargs in function definitions in python is used to pass a 
 
 https://docs.python.org/3/library/functions.html#enumerate
 
+### Recursion
+Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller subproblems. In Python, you can write recursive functions using the following general structure:
+
+```python
+def recursive_function(parameters):
+    # Base case(s)
+    if some_condition:
+        # Return a value or perform some action
+
+    # Recursive case(s)
+    else:
+        # Modify parameters if needed
+        # Call the function recursively
+        recursive_function(modified_parameters)
+```
+
+Let's look at an example to calculate the factorial of a number using recursion:
+
+```python
+def factorial(n):
+    # Base case: factorial of 0 or 1 is 1
+    if n == 0 or n == 1:
+        return 1
+    # Recursive case: factorial of n is n * factorial(n-1)
+    else:
+        return n * factorial(n-1)
+```
+In this example, the factorial function calls itself with the argument n-1 until it reaches the base case, where it returns 1. The final result is obtained by multiplying n with the factorial of n-1, n-2, and so on, until it reaches 1.
+
+Here's an example of how you can use the factorial function:
+```python
+result = factorial(5)
+print(result)  # Output: 120
+```
+Note that when using recursion, it's important to have a base case that defines when the recursion should stop. Without a base case, the recursive function would keep calling itself indefinitely, resulting in a stack overflow error.
+

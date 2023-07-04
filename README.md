@@ -30,3 +30,9 @@
     4. [Inheritance](oops_concept_notes/inheritance.md)
     5. [Encapsulation](oops_concept_notes/encapsulation.md)
     6. [Private, Protected and Public](oops_concept_notes/private_protected_public.md)
+16. [List Comprehension](list_comprehension/list_comprehension.md)
+17. [Recursion](functions/function.md)
+18. [Assert Statement](Misc/assert.md)
+19. [Generators](Misc/generator.md)
+20. [Memory Management](Misc/memory_management.md)
+21. 
