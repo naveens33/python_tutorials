@@ -8,14 +8,32 @@ for item in sequence:
     # code to be executed for each item
 ```
 
-Here's an example that prints each item in a list:
+### Definition of Range:
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+
+```python
+for i in range(5):
+    print(i)
+```
 
 ```
+Output 
+0
+1
+2
+3
+4
+5
+```
+
+Here's an example that prints each item in a list:
+```python
 fruits = ["apple", "banana", "cherry"]
 
 for fruit in fruits:
     print(fruit)
 ```
+
 
 ## while loop
 The while loop repeatedly executes a block of code as long as a specified condition is true. It's useful when you want to loop until a certain condition is met. Here's the basic syntax of a while loop:
