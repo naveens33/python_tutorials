@@ -11,6 +11,7 @@
 2. [Variables, Reserved Words and Operators](variables_keywords_operators_datatypes/variables_reservedwords_operators.md)
     * [Questions and Answers](variables_keywords_operators_datatypes/QA.md)
 3. [Conditional Statements](conditional_statements/conditional_statements.md)
+   * [Questions and Answers](conditional_statements/QA.md)
 4. [Looping](looping_statements/looping.md)
 5. [Strings](strings/strings.md)
     * [Questions and Answers](strings/QA)
@@ -35,4 +36,8 @@
 18. [Assert Statement](Misc/assert.md)
 19. [Generators](Misc/generator.md)
 20. [Memory Management](Misc/memory_management.md)
-21. 
+21. [Regex](Misc/regular_expression.md)
+22. [DateTime](Misc/datetime.md)
+23. [venv](Misc/venv.md)
+24. [os module](Misc/venv.md)
+25. [xlrd and xlwt]()
