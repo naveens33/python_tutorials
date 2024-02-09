@@ -6,9 +6,8 @@ In Python, you define a class using the class keyword. Here's an example of a St
 
 ```python
 class Student:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+    name = ""
+    age = ""
 
     def display_details(self):
         print(f"Name: {self.name}")
@@ -24,8 +23,12 @@ To create an object of the Student class and use its attributes and methods, you
 ```python
 
 # Creating objects
-student1 = Student("Alice", 20)
-student2 = Student("Bob", 21)
+student1 = Student()
+student2 = Student()
+student1.name = "Alice"
+student1.age = 14
+student2.name = "Bob"
+student2.age = 12
 
 # Accessing attributes
 print(student1.name)  # Output: Alice
