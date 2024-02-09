@@ -26,9 +26,9 @@ To create an object of the Student class and use its attributes and methods, you
 student1 = Student()
 student2 = Student()
 student1.name = "Alice"
-student1.age = 14
+student1.age = 20
 student2.name = "Bob"
-student2.age = 12
+student2.age = 21
 
 # Accessing attributes
 print(student1.name)  # Output: Alice
